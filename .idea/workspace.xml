@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/lib/graphql/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/graphql/queries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/CompanyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CompanyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/jobs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/resolvers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/schema.graphql" afterDir="false" />
     </list>
