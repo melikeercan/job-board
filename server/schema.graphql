@@ -2,8 +2,17 @@ type Query {
     jobs: [Job!]
 }
 
+type Company {
+    id: ID!
+    name: String
+    description: String
+}
+
 type Job {
     id: ID!
     title: String
     description: String
+    """The __date__ in ISO-8601 format"""
+    date: String
+    company: Company!
 }

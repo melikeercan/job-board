@@ -1,20 +1,14 @@
+import {getJobs} from "./db/jobs.js";
+import {getCompany} from "./db/companies.js";
+
 export const resolvers = {
     Query: {
-        jobs: () => {
-
-            return [
-                {
-                    id: '1',
-                    title: 'Software Engineer',
-                    description: 'Awesome job',
-                },
-                {
-                    id: '2',
-                    title: 'Senior Software Engineer',
-                    description: 'More Awesome job',
-                },
-
-            ]
-        }
+        jobs: () => getJobs(),
+    },
+    Job: {
+        date: (job) => toIsoDate(job.createdAt),
+        company: (job) => getCompany(job.companyId),
     }
 };
+
+const toIsoDate = (value) => value.slice(0, 'YYYY-MM-DD'.length);
