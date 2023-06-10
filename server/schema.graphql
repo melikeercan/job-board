@@ -19,3 +19,21 @@ type Job {
     date: String
     company: Company!
 }
+
+type Mutation {
+    createJob(input: CreateJobInput!): Job
+    deleteJob(id: ID!): Job
+    updateJob(input: UpdateJobInput!): Job
+    login(email: String!, password: String!): String
+}
+
+input CreateJobInput {
+    title: String!
+    description: String
+}
+
+input UpdateJobInput {
+    id: ID!
+    title: String!
+    description: String
+}

@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="27637856-cd13-4002-94a4-26eef60cd799" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/CompanyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CompanyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/lib/graphql/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib/graphql/queries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/CreateJobPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CreateJobPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/data/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/server/data/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/jobs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/resolvers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,5 +71,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/server.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
